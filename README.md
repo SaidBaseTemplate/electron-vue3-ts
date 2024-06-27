@@ -1,19 +1,21 @@
-<div align="center"><h1>vue3-ts</h1></div>
+<div align="center"><h1>electron-vue3-ts</h1></div>
 
 <div align="center">
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Vite](https://img.shields.io/badge/Packing-Vite-A269FF.svg)](https://github.com/SaidBaseTemplate/vue3-ts)
-[![Typescript](https://img.shields.io/badge/Language-Typescript-3078C6.svg)](https://github.com/SaidBaseTemplate/vue3-ts)
-[![License](https://img.shields.io/github/license/SaidBaseTemplate/vue3-ts)](https://github.com/SaidBaseTemplate/vue3-ts/blob/master/LICENSE)
-[![Stars](https://img.shields.io/github/stars/SaidBaseTemplate/vue3-ts)](https://github.com/SaidBaseTemplate/vue3-ts)
+[![Vite](https://img.shields.io/badge/Packing-Vite-A269FF.svg)](https://github.com/SaidBaseTemplate/electron-vue3-ts)
+[![Typescript](https://img.shields.io/badge/Language-Typescript-3078C6.svg)](https://github.com/SaidBaseTemplate/electron-vue3-ts)
+[![License](https://img.shields.io/github/license/SaidBaseTemplate/electron-vue3-ts)](https://github.com/SaidBaseTemplate/electron-vue3-ts/blob/master/LICENSE)
+[![Stars](https://img.shields.io/github/stars/SaidBaseTemplate/electron-vue3-ts)](https://github.com/SaidBaseTemplate/electron-vue3-ts)
 
 </div>
 
 
 ## ✨ 介绍
 
-`vue3-ts` 是一个基于 `Vite` 和 `TypeScript` 的`Vue3`项目模板，可用于快速开发`Vue3+Ts`的前端项目。该模板与 `said-cli` 脚手架配套使用，旨在简化项目初始化和开发过程。
+`electron-vue3-ts` 是一个基于 `Vite` 、`Vue3`和 `TypeScript` 的`Electron`项目模板，可用于快速开发`Electron+Vue3+Ts`的前端项目。
+
+该模板与 `said-cli` 脚手架配套使用，旨在简化项目初始化和开发过程。
 
 ## 特性
 
@@ -27,7 +29,7 @@
 项目的主要文件和目录结构如下：
 
 ```
-vue3-ts
+electron-vue3-ts
 ├── .husky/                    # husky脚本目录
 ├── dist/                      # 构建输出目录
 ├── src/                       # 源代码目录
@@ -54,7 +56,7 @@ vue3-ts
 
 [said-cli](https://github.com/guizimo/said-cli) 是一个快速拉取模板的脚手架工具，旨在简化和加速项目的初始化过程。
 
-使用 `said-cli` 创建一个基于 `vue3-ts` 模板的新项目。
+使用 `said-cli` 创建一个基于 `electron-vue3-ts` 模板的新项目。
 
 ### 安装 said-cli
 
@@ -102,13 +104,13 @@ pnpm run build
 
 ## 许可证
 
-该项目基于 `MIT` 许可证开源。详情请参阅 [LICENSE](https://github.com/SaidBaseTemplate/vue3-ts/blob/main/LICENSE) 文件。
+该项目基于 `MIT` 许可证开源。详情请参阅 [LICENSE](https://github.com/SaidBaseTemplate/electron-vue3-ts/blob/main/LICENSE) 文件。
 
 ## 联系
 
 如果你有任何问题或建议，请通过以下方式联系我：
 
 - **Email**: 17680262548@163.com
-- **GitHub Issues**: [这里](https://github.com/SaidBaseTemplate/vue3-ts/issues)
+- **GitHub Issues**: [这里](https://github.com/SaidBaseTemplate/electron-vue3-ts/issues)
 
-感谢你使用 `vue3-ts`！希望它能帮助你更快地启动和开发项目。
+感谢你使用 `electron-vue3-ts`！希望它能帮助你更快地启动和开发项目。
