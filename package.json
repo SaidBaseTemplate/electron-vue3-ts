@@ -1,6 +1,6 @@
 {
   "name": "electron-vue3-ts",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "electron-vue3-ts",
   "main": "dist/index.js",
   "type": "module",
