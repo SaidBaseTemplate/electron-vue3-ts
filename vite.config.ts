@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      '@': path.join(__dirname, './src')
+      '@': path.join(__dirname, './src'),
+      '@electron': path.join(__dirname, './electron')
     }
   }
 });

@@ -16,6 +16,7 @@
   "keywords": [
     "Vue3",
     "ts",
+    "Electron",
     "template",
     "base"
   ],
@@ -29,15 +30,20 @@
     "node": ">=16.0.0"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "vue": "^3.4.30"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "@electron/remote": "^2.1.2",
     "@types/node": "^20.14.9",
     "@vitejs/plugin-vue": "^5.0.5",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "electron": "^31.1.0",
+    "electron-builder": "^24.13.3",
+    "electron-log": "^5.1.5",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.7",
     "prettier": "^3.3.2",
