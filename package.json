@@ -10,7 +10,8 @@
     "release": "standard-version",
     "release:major": "standard-version --release-as major",
     "release:minor": "standard-version --release-as minor",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "electron:generate-icons": "electron-icon-builder --input=./public/logo.png --output=build-icons --flatten"
   },
   "keywords": [
     "Vue3",
@@ -44,6 +45,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "electron": "^31.1.0",
     "electron-builder": "^24.13.3",
+    "electron-icon-builder": "^2.0.1",
     "electron-log": "^5.1.5",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.7",
