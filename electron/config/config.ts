@@ -1,5 +1,5 @@
 import type { BrowserWindowConstructorOptions } from 'electron';
-import GlobalConfig from '@electron/global/config';
+import GlobalConfig from '../global/config';
 import path from 'path';
 
 export const WIN_CONFIG: BrowserWindowConstructorOptions = {
@@ -24,7 +24,7 @@ export const WIN_CONFIG: BrowserWindowConstructorOptions = {
     webSecurity: false, // 当设置为 false, 将禁用同源策略
     nodeIntegration: true, // 是否启用 Node 集成
     contextIsolation: true, // 是否在独立 JavaScript 环境中运行 Electron API 和指定的 preload 脚本，默认为 true
-    preload: path.join(__dirname, 'preload.js'), // 需要引用js文件
+    preload: path.join(__dirname, '../preload/preload.js'), // 需要引用js文件
     backgroundThrottling: false, // 是否在页面成为背景时限制动画和计时器，默认值为 true
     nodeIntegrationInWorker: true, // 是否在 Web 工作器中启用了 Node 集成
   }

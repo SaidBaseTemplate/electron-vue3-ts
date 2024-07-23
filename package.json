@@ -2,8 +2,7 @@
   "name": "electron-vue3-ts",
   "version": "1.2.0",
   "description": "electron-vue3-ts",
-  "main": "dist/index.js",
-  "type": "module",
+  "main": "dist/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -39,6 +38,7 @@
     "@electron/remote": "^2.1.2",
     "@types/node": "^20.14.9",
     "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "electron": "^31.1.0",
@@ -50,7 +50,11 @@
     "standard-version": "^9.5.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2",
-    "vite": "^5.3.1"
+    "unocss": "^0.61.5",
+    "vite": "^5.3.1",
+    "vite-electron-plugin": "^0.8.3",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vite-svg-loader": "^5.1.0"
   },
   "lint-staged": {
     "**/*.{js,ts,json}": "prettier --write ."

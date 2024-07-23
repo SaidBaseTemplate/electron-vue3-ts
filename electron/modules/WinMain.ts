@@ -1,9 +1,9 @@
 import electron, { ipcMain, BrowserWindow, type BrowserWindowConstructorOptions } from "electron"
 import * as remote from "@electron/remote/main"
-import GlobalConfig from '@electron/global/config';
-import { WIN_CONFIG } from '@electron/config/config';
-import { mainLog } from '@electron/utils/logger';
-import { adaptByScreen } from '@electron/utils/tools';
+import GlobalConfig from '../global/config';
+import { WIN_CONFIG } from '../config/config';
+import { mainLog } from '../utils/logger';
+import { adaptByScreen } from '../utils/tools';
 
 class WinMain {
   // 窗口实例
@@ -27,7 +27,7 @@ class WinMain {
     if (this.WIN_INST) return
     this.WIN_INST = new BrowserWindow(WIN_CONFIG)
     this.WIN_INST.removeMenu()
-    this.WIN_INST.loadURL(GlobalConfig.WIN_URL)
+    this.WIN_INST.loadURL(GlobalConfig.getWinUrl())
 
     // 启用 remote
     remote.enable(this.WIN_INST.webContents)

@@ -1,7 +1,7 @@
 import NodePath from 'path';
 import { config } from 'dotenv';
 import { BrowserWindow, screen } from 'electron';
-import GlobalConfig from '@electron/global/config';
+import GlobalConfig from '../global/config';
 import PKG from '../../package.json';
 
 /**

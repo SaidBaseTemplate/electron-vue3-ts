@@ -28,8 +28,7 @@
     //TS需要引用的库，即声明文件，es5 默认引用dom、es5、scripthost,如需要使用es的高级版本特性，通常都需要配置，如es8的数组新特性需要引入"ES2019.Array",
     "lib": [
       "esnext",
-      "dom",
-      "ES2015"
+      "dom"
     ],
     //不包含默认的库文件（ lib.d.ts）
     // "noLib": false,
@@ -47,9 +46,6 @@
     "paths": {
       "@/*": [
         "src/*"
-      ],
-      "@electron/*": [
-        "electron/*"
       ]
     },
     "typeRoots": [
@@ -66,9 +62,9 @@
     "src/**/*.vue",
     "src/env.d.ts",
     "src/global.d.ts",
-    "types/*.d.ts"
-  ],
-  "exclude": [
+    "types/*.d.ts",
     "vite.config.ts"
-  ]
+  ],
+  /** 编译器默认排除的编译文件 */
+  "exclude": ["node_modules", "dist", "release"]
 }

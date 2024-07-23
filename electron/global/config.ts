@@ -48,8 +48,14 @@ class GlobalConfig {
 
   // 运行地址
   static readonly WIN_URL = this.IS_DEV_MODE
-    ? `http://${process.env.VITE_APP_HOST}:${process.env.VITE_APP_PORT}`
+    ? `http://${process.env.VITE_APP_HOST}:${process.env.VITE_BASE_PORT}`
     : NodePath.join(this.DIR_APP, "dist", "index.html")
+
+  // 运行地址
+  static getWinUrl() {
+    if (this.IS_DEV_MODE) return `http://${process.env.VITE_APP_HOST}:${process.env.VITE_BASE_PORT}`
+    return NodePath.join(this.DIR_APP, "dist/index.html")
+  }
 
 
   // 程序名称

@@ -1,4 +1,4 @@
-import WinApp from "@electron/modules/WinApp";
+import WinApp from './modules/WinApp';
 
 /** 必要的全局错误捕获 */
 process.on("uncaughtException", (error: Error) => {

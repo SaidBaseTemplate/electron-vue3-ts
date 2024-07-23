@@ -2,10 +2,10 @@ import { app, dialog, Menu, ipcMain, type MessageBoxSyncOptions } from "electron
 import * as remote from "@electron/remote/main"
 
 import { mainLog } from "../utils/logger"
-import GlobalConfig from '@electron/global/config';
-import { loadEnvFile, mountGlobalVariables } from '@electron/utils/tools';
-import WinMain from '@electron/modules/WinMain';
-import WinTray from '@electron/modules/WinTray';
+import GlobalConfig from '../global/config';
+import { loadEnvFile, mountGlobalVariables } from '../utils/tools';
+import WinMain from '../modules/WinMain';
+import WinTray from '../modules/WinTray';
 
 class WinApp {
   // 初始化App配置
