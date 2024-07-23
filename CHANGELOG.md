@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/SaidBaseTemplate/electron-vue3-ts/compare/v1.3.0...v1.4.0) (2024-07-23)
+
+
+### Features
+
+* **Electron:** 接入element ui ([a8d2a33](https://github.com/SaidBaseTemplate/electron-vue3-ts/commit/a8d2a335f0f07eadfe3c63a225d1ed32c9ca9ef7))
+* **Electron:** 添加preload ([71f4fe6](https://github.com/SaidBaseTemplate/electron-vue3-ts/commit/71f4fe62cefa2f5cea24a59531ec610f46bad97e))
+* **Electron:** 添加图标 ([05b6077](https://github.com/SaidBaseTemplate/electron-vue3-ts/commit/05b6077c7d83c39795d4be54f7584354b46976c2))
+
 ## [1.3.0](https://github.com/SaidBaseTemplate/electron-vue3-ts/compare/v1.2.0...v1.3.0) (2024-07-23)
 
 
