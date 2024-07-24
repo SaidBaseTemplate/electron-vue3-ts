@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/SaidBaseTemplate/electron-vue3-ts/compare/v1.4.0...v1.5.0) (2024-07-24)
+
+
+### Features
+
+* **env:** 调整env文件上传 ([8e8e9bb](https://github.com/SaidBaseTemplate/electron-vue3-ts/commit/8e8e9bbf428fb58f0173a17bffb192a731524b99))
+
 ## [1.4.0](https://github.com/SaidBaseTemplate/electron-vue3-ts/compare/v1.3.0...v1.4.0) (2024-07-23)
 
 
