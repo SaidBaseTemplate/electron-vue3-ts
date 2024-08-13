@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/SaidBaseTemplate/electron-vue3-ts/compare/v1.5.0...v1.6.0) (2024-08-13)
+
+
+### Features
+
+* **config:** Set up husky for commit linting and pre-commit hooks ([c1cd3ab](https://github.com/SaidBaseTemplate/electron-vue3-ts/commit/c1cd3aba15973ca07e0bd5c887cae0362657e5db))
+
 ## [1.5.0](https://github.com/SaidBaseTemplate/electron-vue3-ts/compare/v1.4.0...v1.5.0) (2024-07-24)
 
 
