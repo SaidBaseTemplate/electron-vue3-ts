@@ -1,6 +1,6 @@
 {
   "name": "electron-vue3-ts",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "electron-vue3-ts",
   "main": "dist/main.js",
   "scripts": {
