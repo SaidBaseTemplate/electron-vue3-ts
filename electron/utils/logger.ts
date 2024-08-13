@@ -6,7 +6,6 @@
  */
 import eleLog, { Logger } from 'electron-log';
 
-
 // 设置日志控制台等级，默认为 false
 eleLog.transports.console.level = 'info';
 
@@ -19,7 +18,6 @@ eleLog.transports.file.level = 'info';
  * 有且仅有一个备份日志文件
  */
 eleLog.transports.file.maxSize = 1048576 * 10;
-
 
 // 日志工厂
 class LogFactory {

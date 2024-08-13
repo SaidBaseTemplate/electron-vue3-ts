@@ -17,7 +17,6 @@ export const loadEnvFile = () => {
   }
 };
 
-
 /**
  * 根据分辨率适配窗口大小
  * @param dto
